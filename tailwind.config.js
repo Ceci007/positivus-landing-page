@@ -10,7 +10,11 @@ export default {
         primary: "#B9FF66",
         grey: "#F3F3F3",
         dark: "#191A23"
-      }
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        grotesk: ["Space Grotesk", "sans-serif"]
+      },
     },
   },
   plugins: [],
