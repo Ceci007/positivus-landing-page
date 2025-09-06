@@ -14,9 +14,9 @@ const Hero = () => {
     <section className="md:mt-[110px]">
       <Element name="About Us" className="p-3 md:py-4 sm:px-4 md:px-6 ">
         <div className="flex flex-col mx-auto max-w-7xl">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between h-[calc(100vh-200px)]">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between h-[calc(100vh-190px)]">
             <div className='flex flex-col items-center justify-center w-full min-h-[400px] h-full lg:items-start lg:w-1/2'>
-              <div className="w-[450px] space-y-10">
+              <div className="w-[450px] space-y-10 mt-20 lg:mt-0">
                 <h2 className="text-3xl lg:text-5xl">
                   Navigating the digital landscape for success
                 </h2>
@@ -32,7 +32,7 @@ const Hero = () => {
               <img src={HeroPicture} alt="Hero" width={600} height={515} />
             </div>
           </div>
-          <div className='mt-[400px] lg:mt-0 h-[90px] pb-10 w-full mx-auto flex flex-wrap gap-6 lg:flex-nowrap justify-center lg:justify-between'>
+          <div className='mt-[350px] lg:mt-0 h-[200px] lg:h-auto pb-10 w-full mx-auto flex flex-wrap gap-6 lg:flex-nowrap justify-center lg:justify-between'>
             <img src={CompLogo1} alt="Amazon" />
             <img src={CompLogo2} alt="Dribbble" />
             <img src={CompLogo3} alt="HubSpot" />

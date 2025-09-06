@@ -23,7 +23,7 @@ const Navbar = () => {
     <LinkScroll
       onClick={() => setIsOpen(false)}
       to={title}
-      offset={-250}
+      offset={-100}
       spy
       smooth
       activeClass="text-primary"
@@ -34,7 +34,7 @@ const Navbar = () => {
   )
 
   return (
-    <header className="fixed p-3 md:py-4 sm:px-4 md:px-6 md:mt-[40px] top-0 left-0 w-full h-[70px]">
+    <header className={clsx("fixed bg-white p-3 md:py-4 sm:px-4 md:px-6 top-0 left-0 w-full h-[90px]", hasScrolled && "py-3 bg-white backdrop-blur-[8px] shadow-md")}>
       <div className="flex items-center justify-between mx-auto max-w-7xl">
         <div>
           <img src={logo} width={165} height={42} />
