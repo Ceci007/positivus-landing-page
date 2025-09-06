@@ -10,6 +10,6 @@ body {
   @apply font-grotesk;
 }
 
-li a {
+li a, h2, p, button {
   @apply font-grotesk;
 }
