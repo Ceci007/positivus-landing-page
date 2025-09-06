@@ -12,7 +12,7 @@ import CompLogo6 from "../assets/company-logo-6.png"
 const Hero = () => {
   return (
     <section className="md:mt-[110px]">
-      <Element name="About Us" className="p-3 md:py-4 sm:px-4 md:px-6 ">
+      <Element name="About Us" className="p-3 md:py-4 sm:px-4 md:px-6">
         <div className="flex flex-col mx-auto max-w-7xl">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between h-[calc(100vh-190px)]">
             <div className='flex flex-col items-center justify-center w-full min-h-[400px] h-full lg:items-start lg:w-1/2'>
